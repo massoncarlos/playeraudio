@@ -11,6 +11,7 @@ body{
     background-image: url("./assets/background.jpg");
     background-repeat: no-repeat;
     background-position: center;
+    background-position: 70px;
     border: solid 2px black;
 }
 .hp_slide{
@@ -40,3 +41,50 @@ button{
 #timer{
     font-size: 25px;
 }
+
+#volume{
+    position: relative;
+    box-sizing: border-box;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    border-width: 0px;
+    font-size: 5px;
+    padding-top: 30px;
+}
+#bt5{
+    box-sizing: border-box;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    border-width: 2px;
+    width: 25px;
+    border-radius: 20px;
+    font-size: 25px;
+}
+#bt6{
+    box-sizing: border-box;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    width: 25px;
+    border-width: 2px;
+    border-radius: 20px;
+    font-size: 25px;
+}
+#hp_slide1{
+    position: relative;
+    display: inline-block;
+    width: 100px;
+    height: 5px;
+    margin-left: 60px;
+    margin-right: 60px;
+    background-color: grey;
+}
+#hp_range3{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 5px;
+    background-color: green;
+}
+
+

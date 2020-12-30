@@ -2,7 +2,11 @@
 let audio = document.getElementById("audio");
 var player = document.getElementById("audio"); 
 let bar = document.getElementById("hp_range2");
+let barVol = document.getElementById("hp_range3");
 let timer = document.getElementById("timer");
+let barVol2;
+audio.volume = 1;
+barVol.style.width = audio.volume * 100 + '%';
 
 function play(){
     audio.play();
@@ -18,6 +22,18 @@ function back(){
 
 function foward(){
     audio.currentTime += 15;
+}
+function less(){
+    if (audio.volume > 0.01)
+        audio.volume -= 0.1;
+    barVol2 = audio.volume * 100 + '%';
+    barVol.style.width = barVol2;
+}
+function more(){
+    if (audio.volume < 1)
+        audio.volume += 0.1;
+    barVol2 = audio.volume * 100 + '%';
+    barVol.style.width = barVol2;
 }
 
    
