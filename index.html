@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="controlArea">
+        <div class="hp_slide">
+            <div id="hp_range2" class="hp_range"></div>
+        </div>
+        <div>
+            <p id="timer">00:00</p>
+        </div>
+        <audio id="audio">
+            <source src="./assets/system-of-a-down-chop-suey-official-video-CSvFpBOe8eY.mp3" type="audio/mp3">
+        </audio>
+        <div id="button">
+            <button id="bt1" onclick="back()">-15s</button>
+            <button id="bt2" onclick="play()">PLAY</button>
+            <button id="bt3" onclick="pause()">PAUSE</button>
+            <button id="bt4" onclick="foward()">+15s</button>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>

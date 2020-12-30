@@ -1,0 +1,42 @@
+body{
+    text-align: center;
+}
+#controlArea{
+    display: inline-block;
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+    width: 400px;
+    height: 300px;
+    background-image: url("./assets/background.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    border: solid 2px black;
+}
+.hp_slide{
+    width:100%;
+    background:grey;
+    height:5px;
+}
+.hp_range{
+    width:0;
+    background:red;
+    height:5px;
+}
+button{
+    width: 60px;
+    margin: 10px;
+}
+
+#button{
+    width: 100%;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%,-100%);
+    background-color: grey;
+    border-top: solid 3px black;
+}
+#timer{
+    font-size: 25px;
+}
